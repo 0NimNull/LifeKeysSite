@@ -1,0 +1,141 @@
+@media screen and (max-width:539px) {
+    
+.header_dropdown_form_btn{
+    margin: 0;
+}
+.btn_more {
+    width: 13rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    font-size: 0.8rem;
+    margin-bottom: 2rem;
+}
+
+    /*Main Navigation*/
+    .headerNavContainer{
+        width: 100%;
+        padding: 0;
+        overflow-y: scroll ;
+    }
+    .headerNavTitle, .headerNavLink, .sub_menu{
+        width: 60%;
+    }
+    .headerNavTitle::before{
+        display: none;
+    }
+    .headerNavLink{
+        font-size: 1.2rem;
+    }
+
+    /**/
+
+    small {
+        font-size: 1.1rem;
+        text-transform: uppercase;
+        margin-top: 12rem;
+}
+
+@media screen and (min-width:540px) and (max-width:1199px) {
+    
+    .dropdownFormWrapper{
+        width: 50%;
+    }
+    /*Header*/
+
+    .header_wrapper{
+        margin: 0 4rem;
+    }
+    
+    .social_block{
+        display: flex;
+        justify-content: center;
+        opacity: 0;
+        width: 100%;
+    }
+    .header_dropdown_form_btn{
+        margin-right: 5rem;
+    }
+    /*Section1*/
+    #mainSection .content_wrapper {
+        padding: 3rem 0 0 0;
+        transition: 0.5s;
+    }
+    
+    small{
+        width: 70%;
+        margin-top: 12rem;
+        font-size: 1.2rem;
+    }
+    #mainSection h1{
+        font-size: 6em;
+        line-height: 5rem;
+        margin-top: -15rem;
+        z-index: 2;
+    }
+    .social_block_big{
+        opacity: 1;
+        transition: 0.5s;
+    }
+    .logo_big{
+        width: 28rem;
+        height: 22rem;
+        margin-bottom: 5rem;
+    }
+
+    .btn_more{
+        margin: 1.5rem 0;
+    }
+
+    /*Main Navigation*/
+    .headerNavContainer{
+        width: 100%;
+        padding: 0;
+        overflow-y: scroll ;
+    }
+    .headerNavTitle, .headerNavLink, .sub_menu{
+        width: 40%;
+        max-width: 15rem;
+    }
+    }
+}
+
+@media screen and (min-width:992px) {
+
+}
+
+@media screen and (min-width:1200px) {
+    .social_block{
+        display: flex;
+        justify-content: center;
+        opacity: 1;
+        width: 100%;
+    }
+    .social_block_big{
+        opacity: 0;
+        transition: 0.5s;
+    }
+    .logo_big{
+        width: 36rem;
+        height: 22rem;
+        margin-bottom: 7rem;
+        margin-top: 3rem;
+    }
+    #mainSection h1{
+        font-size: 8rem;
+        line-height: 6rem;
+        margin-top: -14rem;
+        z-index: 2;
+    }
+    small{
+        font-size: 1.2rem;
+    }
+    .btn_more{
+        margin: 1.3rem 0;
+    }
+     .dropdownFormWrapper{
+        width: 30%;
+    } 
+
+}
+
+
